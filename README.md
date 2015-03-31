@@ -14,7 +14,7 @@ projít functions.php pomocí parseru phpstormu !!!
 - nahradit $index
 
 modul Centra / kernel
-is_tel2_obj  schazi v INSERT ?
+is_tel2_obj  schazi v INSERT ?  
 
 ************************
 
