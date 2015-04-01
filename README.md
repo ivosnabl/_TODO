@@ -1,6 +1,12 @@
 
 commitnute ale neodeslane???
 
+
+centrum:
+toptext-right   .. nesmyslny styl
+form / client dvojite uvozovky
+
+
 Přidat podporu jazykově indiferentních bloků jako GA
 a do indexu
 <?php
