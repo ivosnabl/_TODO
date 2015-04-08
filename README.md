@@ -33,11 +33,27 @@ PNG ikonky pro akce a obarvené tr
 
 *******************************************
 
+<<<<<<< HEAD
+=======
+Obecný bug
+modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
+- vymazat !!!! echo htmlspecialchars($file_contents);
+>>>>>>> refs/remotes/origin/master
 
 Obecný bug
 modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
 - vymazat !!!! echo htmlspecialchars($file_contents);
 
+
+*******************************************
+oprava ckeditoru   do styleadm.css
+
+.cke_source {
+  white-space: pre-wrap !important; 
+}
+
+
+*******************************************
 
 *******************************************
 oprava ckeditoru   do styleadm.css
