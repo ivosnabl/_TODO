@@ -5,14 +5,26 @@ TODO
 mponline upgrade foundation + test implement offcanvas
 mponline BO update
 
-*****************
+*******************************************
 
 PNG ikonky pro akce a obarvené tr
 
 *******************************************
 
-commitnute ale neodeslane???
+Obecný bug
+modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
+- vymazat !!!! echo htmlspecialchars($file_contents);
 
+
+*******************************************
+oprava ckeditoru   do styleadm.css
+
+.cke_source {
+  white-space: pre-wrap !important; 
+}
+
+
+*******************************************
 
 centrum:
 toptext-right   .. nesmyslny styl
