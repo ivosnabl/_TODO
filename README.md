@@ -5,6 +5,11 @@ TODO
 mponline upgrade foundation + test implement offcanvas
 mponline BO update
 
+- responsible
+obal pro homepage?
+ajax-templates.php
+
+
 *******************************************
 
 PNG ikonky pro akce a obarvené tr
