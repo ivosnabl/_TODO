@@ -27,9 +27,25 @@ mponline upgrade foundation + test implement offcanvas
 mponline BO update
 mponline - přidat z gigatel - slučování obj. ve FO, skupinové účty?  ochranu proti paral.prihl.
 
-******************************************
+*******************************************
 
 PNG ikonky pro akce a obarvené tr
+
+*******************************************
+
+
+Obecný bug
+modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
+- vymazat !!!! echo htmlspecialchars($file_contents);
+
+
+*******************************************
+oprava ckeditoru   do styleadm.css
+
+.cke_source {
+  white-space: pre-wrap !important; 
+}
+
 
 *******************************************
 
