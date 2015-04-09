@@ -1,9 +1,31 @@
 Hlavní
-- přepočítání CEN eshopy !!!!   jak to má aalto, kontrola janoschik
+- přepočítání CEN eshopy !!!!   podle janoschik
+
+- nutno skryt vypoctenou cenu v kosiku (problem s mnozstevni a klientskou cenou a s vypoctem - $_SESSION["cart_price"] se urcuje pri reccount z vychozi ceny / meny); 
+- ověřit zda neni nutno potlačit načítání z cookie
+
+reseni:
+- na zacatku vsech indexu
+- v BO v mene ve kt. bylo objednano (chybi ale celkove soucty z hlediska MO, tj. vc. DPH z ruznych zemi a dopravy)
+- functions.php - Castka z demo
+
+$config["curr_name"] = "&euro;";
+//$config["curr_conv"] = 1/$config["global"]["eur_to_kc"];
+$config["curr_conv"] = 1;
+if (isset($_SESSION["auth_currency"]) && $_SESSION["auth_currency"] != "" && $_SESSION["auth_currency"] == "CZK") {
+  $config["curr_name"] = "Kč";
+  $config["curr_conv"] = $config["global"]["eur_to_kc"];
+}
+
+
+
+
+******************************************
 
 TODO
 mponline upgrade foundation + test implement offcanvas
 mponline BO update
+mponline - přidat z gigatel - slučování obj. ve FO, skupinové účty?  ochranu proti paral.prihl.
 
 - responsible
 obal pro homepage?
@@ -15,6 +37,13 @@ ajax-templates.php
 PNG ikonky pro akce a obarvené tr
 
 *******************************************
+
+<<<<<<< HEAD
+=======
+Obecný bug
+modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
+- vymazat !!!! echo htmlspecialchars($file_contents);
+>>>>>>> refs/remotes/origin/master
 
 Obecný bug
 modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
@@ -31,9 +60,19 @@ oprava ckeditoru   do styleadm.css
 
 *******************************************
 
+*******************************************
+oprava ckeditoru   do styleadm.css
+
+.cke_source {
+  white-space: pre-wrap !important; 
+}
+
+
+*******************************************
+
 centrum:
 toptext-right   .. nesmyslny styl
-form / client dvojite uvozovky
+form / parametr client_ dvojite uvozovky
 
 
 Přidat podporu jazykově indiferentních bloků jako GA
