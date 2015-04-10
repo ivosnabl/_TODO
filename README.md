@@ -30,20 +30,15 @@ mponline - přidat z gigatel - slučování obj. ve FO, skupinové účty?  ochr
 - responsible
 obal pro homepage?
 ajax-templates.php
-
+functions
+feedback
+all forms, skoro vš. tables..
 
 *******************************************
 
 PNG ikonky pro akce a obarvené tr
 
 *******************************************
-
-<<<<<<< HEAD
-=======
-Obecný bug
-modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
-- vymazat !!!! echo htmlspecialchars($file_contents);
->>>>>>> refs/remotes/origin/master
 
 Obecný bug
 modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
@@ -57,8 +52,6 @@ oprava ckeditoru   do styleadm.css
   white-space: pre-wrap !important; 
 }
 
-
-*******************************************
 
 *******************************************
 oprava ckeditoru   do styleadm.css
