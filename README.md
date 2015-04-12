@@ -34,6 +34,8 @@ functions
 feedback
 all forms, skoro vš. tables..
 
+Prozkoumat možnosti responz. BO - inline labels?
+
 *******************************************
 
 PNG ikonky pro akce a obarvené tr
@@ -43,14 +45,6 @@ PNG ikonky pro akce a obarvené tr
 Obecný bug
 modul Fullpage _check_link.php, projeví se při každém výskytu deadlink
 - vymazat !!!! echo htmlspecialchars($file_contents);
-
-
-*******************************************
-oprava ckeditoru   do styleadm.css
-
-.cke_source {
-  white-space: pre-wrap !important; 
-}
 
 
 *******************************************
