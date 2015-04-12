@@ -34,7 +34,11 @@ functions
 feedback
 all forms, skoro vš. tables..
 
-Prozkoumat možnosti responz. BO - inline labels?
+Prozkoumat možnosti responz. BO 
+- inline labels?
+- test it
+
+Nový layout Market nebo koupit  - pro PRH nebo PRinfo nebo index  najít univerz. Foundation 5 vč. SCSSS...
 
 *******************************************
 
@@ -53,7 +57,6 @@ oprava ckeditoru   do styleadm.css
 .cke_source {
   white-space: pre-wrap !important; 
 }
-
 
 *******************************************
 
