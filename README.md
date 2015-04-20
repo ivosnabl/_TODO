@@ -33,6 +33,7 @@ ajax-templates.php
 functions
 feedback
 all forms, skoro vš. tables..
+config.php i jinde - přidat podporu formátu SVG
 
 Prozkoumat možnosti responz. BO 
 - inline labels?
