@@ -43,6 +43,8 @@ Nový layout Market nebo koupit  - pro PRH nebo PRinfo nebo index  najít univer
 
 *******************************************
 
+překlady krajů - Vysocina Region
+updatnout payment lib pro gopay
 PNG ikonky pro akce a obarvené tr
 
 *******************************************
